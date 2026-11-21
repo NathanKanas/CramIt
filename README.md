@@ -1,66 +1,74 @@
+<div align="center">
+
 # CramIT
 
-A study app for creating flashcard sets, reviewing them, and quizzing yourself. Everything runs in the browser and your data is saved locally on your device.
+**Just Cram It.**
 
-**Live demo:** https://nathankanas.github.io/CramIt/HTML/index.html
+Build flashcard sets, flip through them, and quiz yourself, all in your browser.
+
+[**Open the app →**](https://nathankanas.github.io/CramIt/HTML/index.html)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222?logo=github)
+
+</div>
+
+---
 
 ## Features
 
-- **Study sets:** create sets of terms and definitions and search through them
-- **Flashcards:** flip through any set, with next and previous navigation
-- **Quiz mode:** multiple-choice questions generated from your sets, with a score at the end
-- **Dashboard:** cards studied, day streak, number of sets, average score, a daily challenge and recent activity
-- **Dark mode:** the preference is remembered between visits
+| | |
+|---|---|
+| 📚 **Study sets** | Create sets of terms and definitions, then search through them |
+| 🃏 **Flashcards** | Click to flip, then move through a set with Next and Previous |
+| ✅ **Quiz mode** | Multiple-choice questions generated from any set, with a score at the end |
+| 📊 **Dashboard** | Cards studied, day streak, set count, average score, a daily challenge and recent activity |
+| 🌙 **Dark mode** | Your theme choice is remembered between visits |
 
-## Tech
+## Quick start
 
-- HTML, CSS and vanilla JavaScript
-- Browser `localStorage` for saving data (no backend or accounts yet)
-- Hosted on GitHub Pages
+**Use it online:** open the [live app](https://nathankanas.github.io/CramIt/HTML/index.html).
 
-## Run locally
+**Run it locally:**
 
-1. Clone the repo:
-   ````
-   git clone https://github.com/NathanKanas/CramIt.git
-   ````
-2. Open `HTML/index.html` in your browser.
+```bash
+git clone https://github.com/NathanKanas/CramIt.git
+cd CramIt
+```
+
+Then open `HTML/index.html` in your browser. There's nothing to install or build.
+
+## How it works
+
+CramIT is a static site with no backend. Study sets, stats and settings are saved in your browser's `localStorage`, so your data stays on your device and persists between visits. Clearing your browser data removes it.
 
 ## Project structure
 
-````
-HTML/     page templates (dashboard, sets, flashcards, quiz, create)
-css/      styles
-js/       page scripts
-data/     sample data
-Images/   logo and images
-````
+```
+CramIt/
+├── HTML/        Pages: dashboard, sets, flashcards, quiz, create
+├── css/         Styles and dark mode
+├── js/          Page scripts
+├── data/        Sample data
+└── Images/      Logo
+```
 
 ## Roadmap
 
-- [ ] Clean up the code structure and fix known bugs
-- [ ] Edit and delete study sets and cards
+- [x] Dashboard, study sets, flashcards, quiz and dark mode
+- [ ] Code cleanup and shared modules
+- [ ] Edit and delete sets and cards
 - [ ] Quiz feedback and more question types
 - [ ] Spaced repetition
 - [ ] Import and export
 - [ ] Accounts and cloud sync
-````
-````
 
-**To add it to the repo:**
+---
 
-1. In your project folder, create a file named `README.md`:
-````
-notepad README.md
-````
-Click Yes when it asks to create the file, paste the text in (without the outer ```` lines), and save.
+<div align="center">
 
-2. Commit and push:
-````
-git add README.md
-git commit -m "Add README"
-git push
-````
-Refresh your repo page on GitHub and the README appears below the file list.
+Made for students who need to **Cram It**.
 
-After you do Phase 1, update two things in it: the live demo link (it becomes `https://nathankanas.github.io/CramIt/`), and the project structure section (the `HTML/` folder goes away and `index.html` moves to the root). If you want, I can send the updated version then.
+</div>
