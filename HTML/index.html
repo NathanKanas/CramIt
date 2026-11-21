@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CramIT | Study Faster</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+        <h1 class="logo"><img src="../images/CramITnavLogo.png" alt="CramIT Logo"></h1>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="sets.html">Study Sets</a></li>
+            <li><a href="flashcards.html">Flashcards</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="create.html">Create</a></li>
+        </ul>
+
+        <button id="themeBtn">🌙</button>
+    </nav>
+    <main>
+        <section class="welcome">
+            <h2>Welcome Back!</h2>
+            <p>Ready to CramIT all in?</p>
+        </section>
+        <section class="stats">
+            <div class="card">
+                <h3 id="cardsStudied">0</h3>
+                <p>Cards Studied</p>
+            </div>
+            <div class="card">
+                <h3 id="streak">0</h3>
+                <p>Day Streak</p>
+            </div>
+            <div class="card">
+                <h3 id="setCount">0</h3>
+                <p>Study Sets</p>
+            </div>
+            <div class="card">
+                <h3 id="quizAverage">0%</h3>
+                <p>Average Score</p>
+            </div>
+        </section>
+        <section class="challenge">
+            <h2>Daily Challenge</h2>
+            <div class="challenge-card">
+                <p id="dailyChallenge"></p>
+            </div>
+        </section>
+        <section class="activity">
+            <h2>Recent Activity</h2>
+            <ul id="activityList">
+
+            </ul>
+        </section>
+    </main>
+    <script src="../js/main.js"></script>
+</body>
+</html>

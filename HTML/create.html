@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CramIT | Study Faster</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+     <nav>
+        <h1 class="logo"><img src="../images/CramITnavLogo.png" alt="CramIT Logo"></h1>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="sets.html">Study Sets</a></li>
+            <li><a href="flashcards.html">Flashcards</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="create.html">Create</a></li>
+        </ul>
+
+        <button id="themeBtn">🌙</button>
+    </nav>
+
+    <main>
+        <section class="welcome">
+            <h2>Create New Study Set</h2>
+            <p>Add Terms and Definitions to Your Study Set</p>
+        </section>
+        <section class="create-set">
+            <input type="text" id="setTitle" placeholder="Study Set Title" class="search-bar">
+
+            <br><br>
+
+            <input type="text" id="term" placeholder="Term" class="search-bar">
+
+            <br><br>
+
+            <textarea id="definition" placeholder="Definition" class="search-bar"></textarea>
+
+            <br><br>
+            <button id="addCardBtn">Add Card</button>
+            <button id="saveSetBtn">Save Study Set</button>
+            <br><br>
+            <h3 id="cardCount">Cards Added: 0</h3>
+        </section>
+        <section>
+            <h2>Card Preview</h2>
+            <div id="previewContainer"></div>
+        </section>
+    </main>
+    <script src="../js/create.js"></script>
+</body>
+</html>

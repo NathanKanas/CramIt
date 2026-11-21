@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CramIT | Study Faster</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+     <nav>
+        <h1 class="logo"><img src="../images/CramITnavLogo.png" alt="CramIT Logo"></h1>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="sets.html">Study Sets</a></li>
+            <li><a href="flashcards.html">Flashcards</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="create.html">Create</a></li>
+        </ul>
+
+        <button id="themeBtn">🌙</button>
+    </nav>
+
+    <main>
+        <section class="welcome">
+            <h2>Flashcards</h2>
+            <p>Select a study set to begin!</p>
+        </section>
+        <select id="setSelector" class="search-bar">
+
+        </select>
+
+        <div id="flashcard" class="flashcard">
+            Select a study set
+        </div>
+
+        <h3 id="cardTracker"> Card 0 / 0</h3>
+
+        <div class="flashcard-controls">
+
+            <button id="prevBtn">
+                Previous
+            </button>
+
+            <button id="nextBtn">
+                Next
+            </button>
+        </div>
+    </main>
+    <script src="../js/flashcards.js"></script>
+    </body>
+    </html>
